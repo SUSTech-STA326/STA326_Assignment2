@@ -36,5 +36,5 @@ The `data_offers` data set is a simple map with 2 columns:
 ---
 
 ## Submission
-- Create a Jupyter Notebook to finish tasks and submit your code via a Pull Request (PR) back to the original repository.
-- Export your Jupyter Notebook (.ipynb file) as a PDF and submit it via the Blackboard system.
+- Create a Jupyter Notebook to finish tasks (and write your answer with figure for each quesion). Submit your code via a Pull Request (PR) back to the original repository.
+- Export your Jupyter Notebook (.ipynb file) as a PDF (or write a new PDF file with 1-2 pages) and submit it via the Blackboard system.
