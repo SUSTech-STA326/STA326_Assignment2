@@ -14,6 +14,7 @@ Please complete the following tasks.
 
 ---
 
+
 ## Data Description
 We have two data sets: data_orders and data_offers, both being stored in a CSV format. The data_orders data set contains the following columns:
 
