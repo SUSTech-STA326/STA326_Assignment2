@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="00674c576fed49e8afef83c831cd59b0" class="chart-container" style="width:1000px; height:750px; "></div>
+    <script>
+        var chart_00674c576fed49e8afef83c831cd59b0 = echarts.init(
+            document.getElementById('00674c576fed49e8afef83c831cd59b0'), 'white', {renderer: 'canvas'});
+        var option_00674c576fed49e8afef83c831cd59b0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#86c0cb",
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "Without driver / with driver",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                4.6,
+                4.35,
+                6.12,
+                7.02,
+                2.71,
+                1.68,
+                2.38,
+                1.87,
+                2.45,
+                1.64,
+                1.15,
+                0.74,
+                1.59,
+                2.05,
+                1.64,
+                2.07,
+                1.7,
+                2.24,
+                2.09,
+                1.64,
+                3.11,
+                7.29,
+                3.81,
+                4.36
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 14
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Without driver / with driver"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "15.5%",
+            "top": "15.5%",
+            "orient": "vertical",
+            "padding": 7,
+            "itemGap": 10,
+            "itemWidth": 45,
+            "itemHeight": 20,
+            "textStyle": {
+                "color": "black",
+                "fontSize": 20
+            },
+            "icon": "rect",
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "Hours",
+            "show": true,
+            "scale": false,
+            "nameLocation": "center",
+            "nameGap": 35,
+            "nameTextStyle": {
+                "color": "black",
+                "fontSize": 25
+            },
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "color": "black",
+                "margin": 8,
+                "fontSize": 18.5,
+                "formatter": "{value}h"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "Proportion",
+            "show": true,
+            "scale": false,
+            "nameLocation": "center",
+            "nameGap": 35,
+            "nameTextStyle": {
+                "color": "black",
+                "fontSize": 25
+            },
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "color": "black",
+                "margin": 8,
+                "fontSize": 20,
+                "formatter": "{value}s"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "The average time to cancellation with and without driver",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 3,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontSize": 28
+            }
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "15%",
+            "top": "15%",
+            "right": "15%",
+            "bottom": "15%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        }
+    ]
+};
+        chart_00674c576fed49e8afef83c831cd59b0.setOption(option_00674c576fed49e8afef83c831cd59b0);
+    </script>
+</body>
+</html>
